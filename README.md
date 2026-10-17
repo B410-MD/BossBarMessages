@@ -17,12 +17,12 @@
 
 ![BBC-section-banner-commands](img/BBC-section-banner-commands.jpg)
 
-- /bossbar play <id></id> - Show a predefined boss bar from config.yml to all online players
-- /bossbar play custom  <color></color> <time></time> "<message></message>" [sound] - Show a one-time custom boss bar
-- /bossbar list - List predefined boss bars and auto-broadcast status
-- /bossbar reload - Reload config.yml and the language file
-- /bossbar clear - Remove all currently visible boss bars (rotations keep running)
-- /bossbar help - Show command help
+- `/bossbar play <id>` - Show a predefined boss bar from config.yml to all online players
+- `/bossbar play custom  <color> <time> "<message>" [sound]` - Show a one-time custom boss bar
+- `/bossbar list` - List predefined boss bars and auto-broadcast status
+- `/bossbar reload` - Reload config.yml and the language file
+- `/bossbar clear` - Remove all currently visible boss bars (rotations keep running)
+- `/bossbar help` - Show command help
 
 
 ![BBC-section-banner-config](img/BBC-section-banner-config.jpg)
