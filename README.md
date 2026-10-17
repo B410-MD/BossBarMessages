@@ -1,10 +1,10 @@
 
-![BBC-title-banner](img\BBC-title-banner.jpg)
+![BBC-title-banner](img/BBC-title-banner.jpg)
 
 **Boss Bar Messages** shows announcements in the boss bar at the top of the screen. You write your messages in *config.yml*, and the plugin cycles through them on its own. The bar fills up while the message is on screen and disappears when it's done. You can also show a message right away with a command, for example before a restart.
 
 
-![BBC-section-banner-features](img\BBC-section-banner-features.jpg)
+![BBC-section-banner-features](img/BBC-section-banner-features.jpg)
 
 - Different messages per biome, world or dimension, e.g. one list for the Nether and another for spawn.
 - Messages rotate on their own. You set the order, the gap between them and whether the list loops.
@@ -15,7 +15,7 @@
 - /bossbar reload applies config changes without a restart.
 
 
-![BBC-section-banner-commands](img\BBC-section-banner-commands.jpg)
+![BBC-section-banner-commands](img/BBC-section-banner-commands.jpg)
 
 /bossbar play <id></id> - Show a predefined boss bar from config.yml to all online players
 /bossbar play custom  <color></color> <time></time> "<message></message>" [sound] - Show a one-time custom boss bar
@@ -25,7 +25,7 @@
 /bossbar help - Show command help
 
 
-![BBC-section-banner-config](img\BBC-section-banner-config.jpg)
+![BBC-section-banner-config](img/BBC-section-banner-config.jpg)
 
 **Example plugin configuration file**
 
