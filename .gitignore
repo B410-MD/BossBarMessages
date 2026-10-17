@@ -1,0 +1,29 @@
+# Build output
+target/
+*.class
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA (project is imported from pom.xml)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+bin/
+.vscode/
+
+# Local test servers and logs
+run/
+server/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
