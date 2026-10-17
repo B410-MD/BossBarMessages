@@ -1,0 +1,36 @@
+# Boss Bar Messages - English. Color codes use &, placeholders use {braces}.
+
+# ---------- Errors ----------
+no-permission: "&cYou don't have permission to use this command."
+unknown-style: "&cUnknown style: '{value}'. &7Available: {options}"
+unknown-color: "&cUnknown color: '{value}'. &7Available: {options}"
+invalid-time: "&c{reason}"
+message-needs-quotes: "&cMessage must be wrapped in double quotes."
+message-needs-quotes-example: "&7Example: /bossbar play custom solid red 5s \"Hello!\" minecraft:ambient.cave"
+bossbar-not-found: "&cBossbar with id '{id}' not found."
+reload-error: "&cConfig reload failed: {reason}"
+
+# ---------- Success / info ----------
+ad-hoc-displayed: "&aDisplayed bossbar for {duration}{soundInfo}."
+sound-info: " &7(sound: {sound})"
+play-displayed: "&aPlaying '{id}' ({duration})."
+reload-success: "&aConfig reloaded. Loaded {count} bossbar(s)."
+clear-success: "&aCleared all currently visible bossbars."
+
+# ---------- /bossbar list ----------
+list-empty: "&eNo bossbars defined in config.yml."
+list-header: "&eDefined bossbars ({count}):"
+list-entry: "&7 \u2022 &f{id} &7- {color} / {style} / {duration}{soundInfo}"
+list-footer-auto-on: "&7Auto-broadcast: &aON"
+list-footer-auto-off: "&7Auto-broadcast: &cOFF"
+list-footer-regions: "&7Active rotations: &f{count}"
+
+# ---------- /bossbar (usage) ----------
+usage-header: "&eCommands:"
+usage-play-custom: "&f/bossbar play custom <style> <color> <time> \"<message>\" [sound] &7- one-shot bar"
+usage-play-id: "&f/bossbar play <id> &7- run a predefined bossbar from config"
+usage-list: "&f/bossbar list &7- list defined bossbars"
+usage-reload: "&f/bossbar reload &7- reload config"
+usage-clear: "&f/bossbar clear &7- clear all currently visible bossbars"
+usage-styles: "&7Styles: {options}"
+usage-colors: "&7Colors: {options}"

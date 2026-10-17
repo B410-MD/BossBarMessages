@@ -1,0 +1,23 @@
+name: BossBarMessages
+prefix: Boss Bar Messages
+version: ${project.version}
+main: dev.b410.BossBarMessages.BossBarMessages
+api-version: '26.1'
+author: b410
+description: Animated boss bar announcements with automatic rotations per region.
+
+commands:
+  bossbar:
+    description: Show a boss bar announcement or manage the predefined ones.
+    usage: |
+      /bossbar play <id> - play a predefined bossbar
+      /bossbar play custom <style> <color> <time> "<message>" [sound] - one-shot bossbar
+      /bossbar list - list predefined bossbars
+      /bossbar reload - reload config and language
+      /bossbar clear - clear all visible bossbars
+    permission: bossbar.use
+
+permissions:
+  bossbar.use:
+    description: Allows using /bossbar.
+    default: op

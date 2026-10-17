@@ -1,0 +1,36 @@
+# Boss Bar Messages - Polish. Color codes use &, placeholders use {braces}.
+
+# ---------- Errors ----------
+no-permission: "&cNie masz uprawnień do tej komendy."
+unknown-style: "&cNieznany styl: '{value}'. &7Dostępne: {options}"
+unknown-color: "&cNieznany kolor: '{value}'. &7Dostępne: {options}"
+invalid-time: "&c{reason}"
+message-needs-quotes: "&cWiadomość musi być w cudzysłowach."
+message-needs-quotes-example: "&7Przykład: /bossbar play custom solid red 5s \"Hello!\" minecraft:ambient.cave"
+bossbar-not-found: "&cNie znaleziono bossbara o id '{id}'."
+reload-error: "&cBłąd przeładowywania configu: {reason}"
+
+# ---------- Success / info ----------
+ad-hoc-displayed: "&aWyświetlono bossbar na {duration}{soundInfo}."
+sound-info: " &7(dźwięk: {sound})"
+play-displayed: "&aOdtwarzam '{id}' ({duration})."
+reload-success: "&aConfig przeładowany. Załadowano {count} bossbar(ów)."
+clear-success: "&aWyczyszczono wszystkie aktualnie widoczne bossbary."
+
+# ---------- /bossbar list ----------
+list-empty: "&eBrak zdefiniowanych bossbarów w config.yml."
+list-header: "&eZdefiniowane bossbary ({count}):"
+list-entry: "&7 \u2022 &f{id} &7- {color} / {style} / {duration}{soundInfo}"
+list-footer-auto-on: "&7Auto-broadcast: &aWŁĄCZONY"
+list-footer-auto-off: "&7Auto-broadcast: &cWYŁĄCZONY"
+list-footer-regions: "&7Aktywne rotacje: &f{count}"
+
+# ---------- /bossbar (usage) ----------
+usage-header: "&eKomendy:"
+usage-play-custom: "&f/bossbar play custom <styl> <kolor> <czas> \"<wiadomość>\" [dźwięk] &7- jednorazowy pasek"
+usage-play-id: "&f/bossbar play <id> &7- uruchom predefiniowany bossbar z configu"
+usage-list: "&f/bossbar list &7- wylistuj zdefiniowane bossbary"
+usage-reload: "&f/bossbar reload &7- przeładuj config"
+usage-clear: "&f/bossbar clear &7- wyczyść wszystkie aktualnie widoczne bossbary"
+usage-styles: "&7Style: {options}"
+usage-colors: "&7Kolory: {options}"
